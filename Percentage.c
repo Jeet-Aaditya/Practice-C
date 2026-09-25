@@ -1,5 +1,5 @@
 #include <stdio.h>
-main()
+int main()
 {
     float physics, chemistry, biology, mathematics, computer;
     char ch;
@@ -27,4 +27,5 @@ main()
         printf("Grade: E\n");
     else
         printf("Grade: F\n");
+    return 0;
 }
